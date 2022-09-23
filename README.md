@@ -15,7 +15,7 @@ tìm ra hướng làm đầy đủ và chắc là đúng ý tác giả hơn. Bà
   
 ![Imgur](https://i.imgur.com/HCaDi3P.png)
   
-  ** Flag: _VQLG1160_VTEPI_AVTG_3093_ **
+  **Flag: _VQLG1160_VTEPI_AVTG_3093_**
   
 ### Cách 2 thì là sau khi làm xong ngồi mò mẫm lại và tìm ra được, tại thấy khả năng đọc code khá kém nên là đọc lại từ từ để ngẫm.
   Trước tiên thì vẫn phải patch qua ptrace đã, sau đó tiến hành debug ta nhận được:
@@ -55,7 +55,7 @@ Starting program: ./Crackme.dbg
   bằng ptrace. Chúng ta sẽ cần dự đoán giá trị của chuỗi ngẫu nhiên này hoặc làm cho nó có thể dự đoán được. Chúng ta loại bỏ lệnh gọi đến rand
   và thay thế giá trị của nó bằng 0. Tiếp theo là sửa tương tự với getpid cuối cùng xâu chương trình dùng để so sánh sẽ luôn là:
   
-  ** 0_VQLGE_TQPTYD_KJTIV_ **
+  **0_VQLGE_TQPTYD_KJTIV_**
   
   Và đó cũng chính là mật khẩu mà ta cần đưa vào ^^ !!!
   
